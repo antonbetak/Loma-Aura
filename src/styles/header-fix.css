@@ -1,0 +1,6 @@
+.site-header.solid-header {
+  height: 5.4rem;
+  color: var(--forest);
+  background: rgba(245, 242, 235, 0.94);
+  backdrop-filter: blur(8px);
+}
