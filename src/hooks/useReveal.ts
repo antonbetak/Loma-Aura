@@ -1,0 +1,1 @@
+import{useEffect,useRef}from'react';export function useReveal<T extends HTMLElement>(){const ref=useRef<T>(null);useEffect(()=>{const el=ref.current;if(!el)return;const ob=new IntersectionObserver(([entry])=>{if(entry.isIntersecting){el.classList.add('is-visible');ob.unobserve(el)}},{threshold:.12});ob.observe(el);return()=>ob.disconnect()},[]);return ref}

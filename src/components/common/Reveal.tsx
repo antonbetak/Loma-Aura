@@ -1,0 +1,1 @@
+import type{PropsWithChildren}from'react';import{useReveal}from'../../hooks/useReveal';export function Reveal({children,className='',delay=0}:PropsWithChildren<{className?:string;delay?:number}>){const ref=useReveal<HTMLDivElement>();return <div ref={ref} className={`reveal ${className}`} style={{transitionDelay:`${delay}ms`}}>{children}</div>}

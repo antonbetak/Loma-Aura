@@ -1,0 +1,1 @@
+import{ArrowRight}from'lucide-react';import{Link}from'react-router-dom';export function ArrowLink({to,children}:{to:string;children:React.ReactNode}){return <Link className="arrow-link" to={to}>{children}<ArrowRight size={16}/></Link>}

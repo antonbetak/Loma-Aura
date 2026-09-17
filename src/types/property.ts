@@ -1,0 +1,1 @@
+export interface Property { id:string; slug:string; name:string; location:string; shortDescription:string; description:string; guests:number; bedrooms:number; beds:number; bathrooms:number; priceFrom:number; heroImage:string; gallery:string[]; amenities:string[]; details:string }

@@ -1,0 +1,1 @@
+import{Link}from'react-router-dom';export function NotFound(){return <section className="not-found"><p className="eyebrow">404</p><h1>Este lugar no está en el mapa.</h1><Link className="button button-dark" to="/">VOLVER AL INICIO</Link></section>}
